@@ -5,8 +5,29 @@ html, body {
 
 body {
     font-family: Roboto;
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
     list-style:  none;
+    display: flex;
+    gap: 16px;
+    color: #E5E7EB;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2936;
+}
+
+.logo {
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.quote {
+    background-color: #E5E7EB;
 }
