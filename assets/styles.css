@@ -24,10 +24,33 @@ ul {
 }
 
 .logo {
-    color: #E5E7EB;
     font-weight: bold;
 }
 
 .quote {
     background-color: #E5E7EB;
+}
+
+.header {
+    background-color: #1F2936;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header, .logo {
+    color: #E5E7EB;
+}
+
+button {
+    max-width: 100px;
+    max-height: 50px;
+}
+
+.gallery {
+    background-color: gray;
+    max-height: 100px;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
 }
