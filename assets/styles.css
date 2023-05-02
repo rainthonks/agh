@@ -44,6 +44,13 @@ ul {
 button {
     max-width: 100px;
     max-height: 50px;
+    background-color: #3882F6;
+    border: none;
+    outline: none;
+    color:#E5E7EB;
+    padding: 4px 12px;
+    border-radius: 8px;
+    font-family: Roboto;
 }
 
 .gallery {
@@ -53,4 +60,8 @@ button {
     display: flex;
     align-items: center;
     padding: 10px;
+}
+
+.nav, .header {
+    padding: 10px 200px;
 }
