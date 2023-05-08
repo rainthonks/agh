@@ -44,10 +44,10 @@ ul {
     font-family: Roboto;
     font-style: bold;
     padding: 0px 200px 100px;
-    justify-content: ;
+    justify-content: center;
 }
 
-.header {
+.header, .footer {
     background-color: #1F2936;
     display: flex;
     justify-content: space-between;
@@ -104,4 +104,20 @@ button {
 .subtext-header {
     display: flex;
     justify-content: center;
+}
+
+.advertisement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.footer {
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    color:#E5E7EB;
+    padding: 10px;
 }
